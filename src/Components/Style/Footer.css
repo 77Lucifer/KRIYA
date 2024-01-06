@@ -118,3 +118,14 @@ ul {
     color: gray;
     background-color: whitesmoke;
 }
+.ul5{
+    width: fit-content;
+}
+.ul5 ul{
+    width: 100%;
+}
+@media screen and (max-width: 480px) {
+    .footer{
+        padding: 80px 0px 12px;
+    }
+}
