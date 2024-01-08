@@ -13,7 +13,7 @@ const Collab = () => {
           <h1>Collabration</h1>
           <div className="c-inner">
             <div className="c-left">
-             <h3> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia blanditiis atque enim repellat velit dolorum! Ipsa earum omnis porro rerum!</h3>
+             <h3> Get your brands/products promoted instantly with our wide range of creators Scale your product sales through our influencer marketing network.</h3>
               <button className='btn'>Let's Connect</button>
             </div>
             <div className="c-right">
