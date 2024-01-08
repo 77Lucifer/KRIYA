@@ -84,3 +84,25 @@
     font-size: 1rem;
     /* color: #0062ff; */
 }
+
+@media screen and (max-width: 860px) {
+    .input{
+        width: 100%;
+    }
+   .creator-box{
+    flex-direction: column;
+    height: 100%;
+    gap: 20px;
+    padding: 0px;
+   }
+   .creator{
+    width: 100%;
+   }
+   .creator-main
+   {
+    height: 175vh;
+   }
+   .creator-inner{
+    padding: 5px;
+   }
+}

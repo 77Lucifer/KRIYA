@@ -22,7 +22,7 @@ const Collab = () => {
           </div>
         </div>
         <svg
-      id="colllab-wave"
+      id="collab-wave"
       style={{ transform: 'rotate(0deg)', transition: '0.3s' }}
       viewBox="0 0 1440 220"
       version="1.1"

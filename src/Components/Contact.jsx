@@ -16,14 +16,13 @@ const Contact = () => {
               <h5>Let us Know more about you !</h5>
               <form action="#">
                 <input type="text" placeholder='Full Name' required />
-                {/* <input type="text" placeholder='Last Name'required /> */}
                 <input type="email" placeholder='E-Mail' required />
                 <input type="text" placeholder='Phone' required />
                 <textarea name="" id="text-area" cols="20" rows="5" required placeholder='message'></textarea>
                 <button type='submit' className='btn'>Submit</button>
               </form>
             </div>
-            <div className="card-r">
+            {/* <div className="card-r">
               <h2>Contact Information</h2>
               <div className="contact-info">
                 <h5><i class="fa-solid fa-location-dot"></i> Address - ICONIC Kriya  LLP,No-103 <span>Krupa Residency,  Telangana, India, <span>502032</span></span></h5>
@@ -31,8 +30,9 @@ const Contact = () => {
                 <h5><i class="fa-solid fa-envelope"></i>Email Uskriya - reg@gmail.com</h5>
                 <h5><i class="fa-solid fa-clock"></i>Open Hours Monday - Friday <span>9:00AM - 05:00PM</span></h5>
               </div>
-            </div>
+            </div> */}
           </div>
+          
         </div>
       <svg
       id="wave"

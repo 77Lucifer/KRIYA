@@ -51,7 +51,56 @@
     height: 100%; 
      object-fit: cover; */
 }
-#colllab-wave{
+#collab-wave{
     position: absolute;
     bottom: -10%;
+}
+
+@media screen and (max-width: 870px) {
+    .c-inner{
+        flex-direction: column;
+        align-items: center;
+    }
+    .c-left{
+        width: 100%;
+        height: 100%;
+        ALIGN-ITEMS: center;
+    }
+    .c-right{
+        width: 75%;
+        height: 100%;
+    }
+    .c-inner{
+        height: 90%;
+    }
+    .Collab-main{
+        height: 125vh;
+    }
+    #collab-wave{
+        bottom: -2%;
+    }
+}
+@media screen and (max-width: 400px) {
+    .c-top{
+        padding: 0px;
+        padding-top: 10px;
+    }
+    .c-inner{
+        padding: 0px;
+        height: 83%;
+    }
+    .c-left{
+        padding: 5px;
+        justify-content: space-evenly;
+    }
+    .c-left h3{
+        font-size: 1rem;
+        text-align: center;
+    }
+    .c-top h1{
+        font-size: 2rem;
+    }
+    .Collab-main{
+        height: 135vh;
+    }
 }
