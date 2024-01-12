@@ -1117,7 +1117,7 @@ ul {
     }
 
     .review-section{
-        height: 90vh;
+        height: 95vh;
     }
 
     .first-t-s{
@@ -1142,7 +1142,9 @@ ul {
         height: 72%;
         padding: 0;
     }
-
+    .a-s-l p{
+        padding: 25px;
+    }
     .about-second{
         padding: 0;
     }
@@ -1190,6 +1192,9 @@ ul {
 
     .Copyright {
         font-size: 14px;
+    }
+    .footer-inner{
+        padding: 20px;
     }
 }
 
