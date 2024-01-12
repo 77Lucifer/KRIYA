@@ -1,10 +1,13 @@
 .Collab-main{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(117deg, #a633cd 40%, #101212);
-    font-family: 'Raleway', sans-serif;
+    background-image: linear-gradient(to right, #ffb9ff 30%, #7870ca);    font-family: 'Raleway', sans-serif;
     color: white;
     position: relative;
+}
+:root{
+    --main-color: rgb(45, 43, 43);
+    --ptext-color: #302E2E;
 }
 .c-top{
     width: 100%;
@@ -15,7 +18,10 @@
     margin-top: 10px;
     font-size: 2.3rem;
     text-align: center;
-}
+    color: var(--main-color);
+    font-family: 'Arvo', serif;
+    
+} 
 .c-inner{
     width: 100%;
     height: 100%;
@@ -33,9 +39,11 @@
     /* background-color: aliceblue; */
 }
 .c-left h3{
-    line-height: 26px;
+    line-height: 28px;
     font-size: 1.4rem;
     text-align: left;
+    color: var(--ptext-color);
+    font-family: 'Montserrat', sans-serif;
 }
 .c-right{
     border-radius: 20px;

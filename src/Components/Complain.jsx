@@ -111,7 +111,7 @@ const Terms = () => {
                                     Compliance Measures:Implement continuous monitoring systems for security, compliance, and user behavior. Conduct regular internal and external audits to assess adherence to policies and regulations.</p></li>
                             </ul>
                         </div>
-                        <p>This Risk & Compliance framework for Kriya aims to create a secure, ethical, and compliant environment, fostering user trust and ensuring the long-term success of the application. Regular updates and adjustments should be made to adapt to evolving risks and regulatory landscapes.</p>
+                        <p className='risk-p'>This Risk & Compliance framework for Kriya aims to create a secure, ethical, and compliant environment, fostering user trust and ensuring the long-term success of the application. Regular updates and adjustments should be made to adapt to evolving risks and regulatory landscapes.</p>
                     </div>
                 </div>
             </div>

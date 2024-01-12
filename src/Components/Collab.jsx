@@ -7,6 +7,7 @@ import Footer from './Footer'
 const Collab = () => {
   return (
     <>
+
     <Nav/>
       <div className="Collab-main">
         <div className="c-top">

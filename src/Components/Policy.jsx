@@ -16,9 +16,9 @@ const Terms = () => {
                             <ul>
                                 <h3>1. Information We Collect</h3>
                                 <li> <p>1.1 Personal Information: We may collect personal information, such as names, email addresses, and profile information when users register or use certain features of the app.
-
+<br /><br />
 1.2 Usage Data:We collect information on how users interact with the app, including but not limited to pages visited, features used, and time spent on the app.
-
+<br /><br />
 1.3 Device Information: We may collect information about the devices used to access the app, including device type, operating system, and unique device identifiers.</p></li>
                             </ul>
                         </div>
@@ -27,7 +27,7 @@ const Terms = () => {
                             <ul>
                                 <h3>2. How We Use the Information</h3>
                                 <li> <p>2.1 Providing and Improving the App: We use the collected information to provide and enhance the features and functionalities of the app.
-
+                                <br />                    <br />
 2.2 Communication: We may use the provided email address to communicate with users, send updates, respond to inquiries, and send information about the app.</p></li>
                             </ul>
                         </div>
@@ -36,7 +36,7 @@ const Terms = () => {
                             <ul>
                                 <h3>3. Information Sharing and Disclosure</h3>
                                 <li> <p>3.1 Third-Party Service Providers: We may share information with third-party service providers who assist us in operating the app and providing services. These service providers are obligated to maintain the confidentiality of the information.
-
+                                <br /><br />
 3.2 Legal Requirements: We may disclose information if required to do so by law or in the good-faith belief that such action is necessary to comply with applicable laws, regulations, or legal processes.</p></li>
                             </ul>
                         </div>
@@ -52,7 +52,7 @@ const Terms = () => {
                             <ul>
                                 <h3>5. User Choices</h3>
                                 <li> <p>5.1 Opt-Out: Users may opt-out of receiving promotional emails by following the instructions in the email or contacting us directly.
-
+                                <br /><br />
 5.2 Access and Update: Users may access and update their personal information by logging into their account or contacting us directly.</p></li>
                             </ul>
                         </div>

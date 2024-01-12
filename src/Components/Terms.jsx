@@ -23,8 +23,8 @@ const Terms = () => {
             <div className="terms-1">
               <ul>
               <h3>2. User Registration</h3>
-              <li> <p>2.1 You may be required to register for an account with the App. You agree to provide accurate and complete information during the registration process.
-
+              <li> <br /><p>2.1 You may be required to register for an account with the App. You agree to provide accurate and complete information during the registration process.
+<br /> <br />
 2.2 You are responsible for maintaining the confidentiality of your account credentials and for all activities that occur under your account.</p></li>
               </ul>
             </div>
@@ -33,7 +33,7 @@ const Terms = () => {
               <ul>
               <h3>3. User Conduct</h3>
               <li> <p>3.1 Users agree to use the App in compliance with all applicable laws and regulations.
-
+<br />
 3.2 Users agree not to engage in any conduct that could harm, disable, overburden, or impair the App.</p></li>
               </ul>
             </div>
@@ -42,7 +42,7 @@ const Terms = () => {
               <ul>
               <h3>4. Content and Intellectual Property</h3>
               <li> <p>4.1 The App may contain content, including but not limited to text, graphics, images, and software. All such content is the intellectual property of kriya or its licensors.
-
+<br />
 4.2 Users may not modify, reproduce, distribute, or display any content from the App without explicit permission.</p></li>
               </ul>
             </div>
@@ -51,10 +51,10 @@ const Terms = () => {
               <ul>
               <h3>5. Privacy Policy</h3>
               <li> <p>5.1 Use of the App is also governed by our Privacy Policy, which can be found [link to Privacy Policy]. By using the App, you agree to the terms outlined in the Privacy Policy.
+<br />
+5.2 Termination
 
-6. Termination
-
-6.1 Kriya reserves the right to terminate or suspend access to the App at any time, with or without cause, and with or without notice..</p></li>
+Kriya reserves the right to terminate or suspend access to the App at any time, with or without cause, and with or without notice..</p></li>
               </ul>
             </div>
 
