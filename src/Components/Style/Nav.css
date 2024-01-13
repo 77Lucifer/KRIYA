@@ -34,6 +34,9 @@
     font-size: 1.4rem;
     margin-bottom: 14px;
     cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 900;
+    /* display: none; */
     transition: all ease 0.3s;
 }
 
@@ -119,6 +122,8 @@ nav {
     nav li {
         margin-bottom: 20px;
         transition: all ease 0.3s;
+        font-weight: 900;
+        text-transform: uppercase;
     }
 
     nav a {
