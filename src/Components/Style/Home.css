@@ -824,11 +824,14 @@ ul {
     }
 
     .t-l {
-        width: 100%;
+        width: 140%;
         text-align: center;
         gap: 10;
     }
 
+    .t-l p{
+        margin: 0 auto;
+    }
     .t-l button {
         margin: 0 auto;
     }
@@ -1083,7 +1086,7 @@ ul {
     }
 
     .footer{
-        padding: 80px 12px 12px;
+        padding: 80px 20px 12px;
     }
     .ul5 {
         width: 100%;
@@ -1191,7 +1194,7 @@ ul {
     }
 
     .footer{
-        padding: 20px;
+        padding: 80px 20px 12px;
     }
     .Copyright {
         font-size: 14px;
