@@ -1013,6 +1013,10 @@ ul {
     .a-l img {
         width: 55%;
     }
+    .a-l{
+        background-size: 111%;
+        height: 25vh;
+    }
     .review p {
         width: 100%;
     }
@@ -1233,12 +1237,18 @@ ul {
 
 }
 
-/* @media (min-width: 250px) and (max-width: 430px) {
-    .about-l {
-        height: 50vh;
-        background-size: 79%;
-        margin-top: 20px;
+@media (min-width: 398px) and (max-width: 440px) {
+    .t-l h1{
+        width: 99%;
+    }
+    .first-t-s{
+        font-size: 2rem;
+    }
+    .t-l p{
+        width: 101%;
+    }
+    .about-app{
+        height: 100vh;
     }
 
-
-} */
+}
