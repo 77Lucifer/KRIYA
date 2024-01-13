@@ -170,8 +170,8 @@
 }
 
 .t-l h1 {
-    font-weight: 600;
-    font-size: 2rem;
+    font-weight: 800;
+    font-size: 2.2rem;
     width: 100%;
     /* background-color: #0d1e2d; */
     line-height: 50px;
@@ -190,7 +190,10 @@
     letter-spacing: 5px;
     color: #ff00ea;
 }
+p{
 
+    font-weight: 900;
+}
 
 .t-l p {
     font-size: 1.2rem;
@@ -367,7 +370,7 @@
     font-size: 1.3rem;
     line-height: 30px;
     margin-top: 20px;
-    font-weight: 500;
+    font-weight: 900;
     letter-spacing: 0.5px;
     font-family: var(--pfont-family);
     color: var(--ptext-color);
