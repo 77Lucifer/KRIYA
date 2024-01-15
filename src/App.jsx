@@ -9,6 +9,7 @@ import Nav from './Components/Nav'
 import Collab from './Components/Collab'
 import Creator from './Components/Creator'
 import Contact from './Components/Contact'
+import Creatorcard from './Components/Creatorcard'
 
 function App() {
   
@@ -25,6 +26,7 @@ function App() {
       <Route path='/Collab' element={<Collab/>}></Route>
       <Route path='/Creator' element={<Creator/>}></Route>
       <Route path='/Contact' element={<Contact/>}></Route>
+      <Route path='/Creatorcard' element={<Creatorcard/>}></Route>
     </Routes>
   </BrowserRouter>
   </>

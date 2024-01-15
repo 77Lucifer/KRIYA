@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import './Style/Creator.css'
 import Nav from './Nav'
 import Footer from './Footer'
+import { Link } from 'react-router-dom'
 
 
 const Creator = () => {
@@ -46,7 +47,7 @@ const Creator = () => {
       <Nav />
       <div className="creator-main">
         <h1>Our Creator</h1>
-        <div className="creator-inner">
+       <div className="creator-inner">
           <div className="input">
             <i class="fa-solid fa-user"></i>
             <input
@@ -57,16 +58,17 @@ const Creator = () => {
             />
           </div>
           <div className="creator-box">
-          {filteredCreators.map((creator) => (
-              <div
+           {filteredCreators.map((creator) => (
+          <div
                 className="creator"
                 key={creator.id}
-              >
+              > <Link to='/Creatorcard'>    
                 <img src={creator.image} alt="" />
                 <h3>{creator.name}</h3>
                 <h5>{creator.profession}</h5>
+              </Link>
               </div>
-            ))}
+            ))} 
           </div>
         </div>
         <svg

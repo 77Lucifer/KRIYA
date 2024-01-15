@@ -71,6 +71,8 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
+    /* background-image: url(/src/Components/images/Kriya_bg_remove.png); */
 }
 .creator img{
     width: 150px;

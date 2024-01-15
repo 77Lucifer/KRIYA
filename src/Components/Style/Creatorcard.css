@@ -1,0 +1,172 @@
+.creator-main{
+    width: 100%;
+    height: 120vh;
+    position: relative;
+}
+
+.c-card-inner{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.card{
+    width:37%;
+    height: 500px;
+    margin: 70px 0px;
+    z-index: 55;
+    border-radius: 20px;
+    background-color: azure;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    text-align: center;
+    position: relative;
+}
+.card img{
+    width: 160px;
+    height: 160px;
+}
+.social-icons{
+    width: 100%;
+    font-size: 26px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.social-icons i:hover{
+    color:  #42d2e2;    
+    /* #ffb9ff 30%, #7870ca */
+    cursor: pointer;
+    transition: 0.1s ease all;
+}
+.card h2{
+    color: #42d2e2;
+}
+.card h3{
+    margin-bottom: 10px;
+}
+.img1,.img2,.img3{
+    position: absolute;
+    width: 300px;
+    height: 280px;
+    object-fit: contain;
+}
+.img1{
+    left: 12%;
+    bottom: 2%;
+}   
+.img2{
+    top: 5%;
+    right: 9%;
+}
+.img3{
+    left: 8%;
+    top: 7%;
+}
+.k-logo{
+    width: 100%;
+    height: 0%;
+    display: flex;
+    align-items: start;
+}
+.k-logo img{
+    width: 80px;
+    height: 70px;
+    object-fit: contain;
+}
+.connect-icons{
+    width: 100%;
+    height: 60px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5px;
+}
+.fa-solid{
+    font-size: 15px;
+}
+.fa-solid:hover{
+    color:  #433c8c;
+    transform: translatey(-10%);
+    transition: all linear 0.6s;
+    cursor: pointer;
+}
+.connect-icons h4{
+    letter-spacing: 2px;
+    margin-top: 6px;
+
+}
+.buttons{
+    width: 100%;
+    justify-content: space-between;
+    /* background-color: #42d2e2; */
+}
+
+
+@media screen and (max-width: 1029px) {
+    .card{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 827px) {
+    .card
+    {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:  705px) {
+    .card{
+        width: 76%;
+    }
+}
+@media screen and (max-width: 555px) {
+    .card{
+        width: 100%;
+        height: 60%;
+        margin-top: 30%;
+    }
+}
+@media screen and (max-width: 432px) {
+    .creator-main
+    {
+        padding: 0px;
+    }
+}
+@media screen and (max-width: 365px) {
+    .card{
+        width: 100%;
+        height: 50%;
+        margin-top: 60%;
+    }
+    .card img{
+        width: 130px;
+        height: 130px;
+    }
+    .k-logo{
+        height: 60px;
+    }
+    .k-logo img{
+        width: 90px;
+        height: 90px;
+    }
+    .buttons{
+        height: 25%;
+    }
+    .card h2{
+        margin-top: 3px;
+        font-size: 20px;
+    }
+    .social-icons{
+        font-size: 22px;
+        margin: 10px 0px;
+    }
+    .fa-solid{
+        font-size: 12px;
+        white-space: nowrap;
+    }
+}
