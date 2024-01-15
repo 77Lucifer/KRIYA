@@ -88,7 +88,7 @@
 .fa-solid{
     font-size: 15px;
 }
-.fa-solid:hover{
+.connect-icons i:hover{
     color:  #433c8c;
     transform: translatey(-10%);
     transition: all linear 0.6s;

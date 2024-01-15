@@ -229,7 +229,7 @@ const Home = () => {
                     <h1>Your Every <span>Minute Counts</span></h1>
                     <div className="about-app-inner">
                         <div className="about-l">
-                            <video src={video1} autoPlay loop></video>
+                            <video src={video1} autoPlay loop muted></video>
                         </div>
                         <div className="about-r">
                             <h3>
