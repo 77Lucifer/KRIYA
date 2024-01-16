@@ -10,9 +10,9 @@ const Contact = () => {
     <>
       <div className="contact">
         <Nav />
-        <img className='img1' src="https://images01.nicepage.com/c461c07a441a5d220e8feb1a/84bf84f610945949aed140ac/xxxx.png" alt="" />
-        <img className='img2' src="https://images01.nicepage.com/c461c07a441a5d220e8feb1a/8abf9708500f530fa3cb6308/jjjjjjjjjjjjjjjjjjj.png" alt="" />
-        <img className='img3' src="https://images01.nicepage.com/c461c07a441a5d220e8feb1a/ec8b1fdcd0475a01b686162e/ddd-min.png" alt="" />
+        <img className='cimg1' src="https://images01.nicepage.com/c461c07a441a5d220e8feb1a/84bf84f610945949aed140ac/xxxx.png" alt="" />
+        <img className='cimg2' src="https://images01.nicepage.com/c461c07a441a5d220e8feb1a/8abf9708500f530fa3cb6308/jjjjjjjjjjjjjjjjjjj.png" alt="" />
+        <img className='cimg3' src="https://images01.nicepage.com/c461c07a441a5d220e8feb1a/ec8b1fdcd0475a01b686162e/ddd-min.png" alt="" />
         <div className="contact-inner">
           <div className="form">
             <h4>Name</h4>
