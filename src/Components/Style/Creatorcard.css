@@ -136,6 +136,12 @@
     {
         padding: 0px;
     }
+    .buttons{
+        height: 20%;
+    }
+    .fa-solid{
+        font-size: 12px;
+    }
 }
 @media screen and (max-width: 365px) {
     .card{
