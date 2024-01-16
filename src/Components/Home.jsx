@@ -10,6 +10,7 @@ import { Link } from 'react-router-dom'
 import './Style/Home.css'
 import Footer from './Footer'
 import { useEffect } from 'react';
+import { useRef } from 'react'
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
@@ -18,176 +19,17 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 const Home = () => {
 
-    //     useEffect(() => {
-    //         gsap.registerPlugin(ScrollTrigger);
+    const videoRef = useRef(null);
 
-    //         const tl = gsap.timeline();
+    useEffect(() => {
+        const video = videoRef.current;
 
-    //         tl.from(".t-l",{
-    //             x:'-100%',
-    //         })
-    //         tl.from(".t-r",{
-    //             x:'100%',
-    //         })
-
-    //         gsap.from(".about-l",{
-    //             x:'-150%',
-    //             scrollTrigger:{
-    //                 scroll:".about-app",
-    //                 Trigger: ".a-r",
-    //                 // markers: true,
-    //                 start: "10%",
-    //                 end: "100%"
-    //             }
-    //         })
-
-    //         gsap.from(".login-img",{
-    //             x:'-200%',
-    //             scrollTrigger:{
-    //                 scroll:".about-app",
-    //                 Trigger: ".login-img",
-    //                 // markers: true,
-    //                 start: "10%",
-    //                 end: "100%"
-    //             }
-    //         })
-    //         gsap.from(".about-r",{
-    //             x:'150%',
-    //             scrollTrigger:{
-    //                 scroll:".about-app",
-    //                 Trigger: ".a-r",
-    //                 // markers: true,
-    //                 start: "10%",
-    //                 end: "100%"
-    //             }
-    //         })
-
-    //         gsap.from(".cards-step .card",{
-    //             scale: 0,
-    //             opcity: 0,
-    //             scrollTrigger:{
-    //                 scroll:".cards-step",
-    //                 Trigger: ".cards-step .card",
-    //                 // markers: true,
-    //                 start: "21%",
-    //                 end: "100%"
-    //             }
-    //         })
-
-    //         gsap.from(".first-inner .a-s-l",{
-    //             x:'-130%',
-    //             scrollTrigger:{
-    //                 scroll:".two-about-banner",
-    //                 Trigger: ".first-inner .a-s-l",
-    //                 // markers: true,
-    //                 start: "37.5%",
-    //                 end: "100%"
-    //             }
-    //         })
-    //         gsap.from(".first-inner .a-s-r",{
-    //             x:'130%',
-    //             scrollTrigger:{
-    //                 scroll:".two-about-banner",
-    //                 Trigger: ".first-inner .a-s-r",
-    //                 // markers: true,
-    //                 start: "37.5%",
-    //                 end: "100%"
-    //             }
-    //         })
-    //         gsap.from(".second-inner .a-s-l",{
-    //             x:'130%',
-    //             scrollTrigger:{
-    //                 scroll:".two-about-banner",
-    //                 Trigger: "second-inner .a-s-l",
-    //                 // markers: true,
-    //                 start: "37.5%",
-    //                 end: "100%"
-    //             }
-    //         })
-    //         gsap.from(".second-inner .a-s-r",{
-    //             x:'-130%',
-    //             scrollTrigger:{
-    //                 scroll:".two-about-banner",
-    //                 Trigger: ".second-inner .a-s-r",
-    //                 // markers: true,
-    //                 start: "37.5%",
-    //                 end: "100%"
-    //             }
-    //         })
-
-    //         gsap.from(".review-section .review-inner",{
-    //             scale: 0,
-    //             opcity: 0,
-    //             scrollTrigger:{
-    //                 scroll:".review-section",
-    //                 Trigger: ".review-section .review inner",
-    //                 // markers: true,
-    //                 start: "51%",
-    //                 end: "100%"
-    //             }
-    //         })
-
-    //         gsap.from(".app-downlaod h1",{
-    //             scale: 0,
-    //             opcity: 0,
-    //             scrollTrigger:{
-    //                 scroll:".app-downlaod",
-    //                 Trigger: ".app-downlaod h1",
-    //                 // markers: true,
-    //                 start: "64%",
-    //                 end: "100%"
-    //             }
-    //         })
-
-    //         gsap.from(".app-downlaod h2",{
-    //             scale: 0,
-    //             opcity: 0,
-    //             scrollTrigger:{
-    //                 scroll:".app-downlaod",
-    //                 Trigger: ".app-downlaod h2",
-    //                 // markers: true,
-    //                 start: "64%",
-    //                 end: "100%"
-    //             }
-    //         })
-
-    //         gsap.from(".about-app h1",{
-    //             scale: 0,
-    //             opcity: 0,
-    //             scrollTrigger:{
-    //                 scroll:".app-downlaod",
-    //                 Trigger: ".app-downlaod h2",
-    //                 // markers: true,
-    //                 start: "9%",
-    //                 end: "100%"
-    //             }
-    //         })
+        if (video) {
+            video.play();
+        }
+    }, []);
 
 
-    //         gsap.from(".a-l",{
-    //             x:'-100%',
-    //             scrollTrigger:{
-    //                 scroll:".app-downlaod",
-    //                 Trigger: ".a-l",
-    //                 // markers: true,
-    //                 start: "65%",
-    //                 end: "100%"
-    //             }
-    //         })
-    //         gsap.from(".a-r",{
-    //             x:'100%',
-    //             scrollTrigger:{
-    //                 scroll:".app-downlaod",
-    //                 Trigger: ".a-r",
-    //                 // markers: true,
-    //                 start: "65%",
-    //                 end: "100%"
-    //             }
-    //         })
-
-
-
-    // }, []);
     return (
         <>
             <div className="loader">
@@ -229,7 +71,7 @@ const Home = () => {
                     <h1>Your Every <span>Minute Counts</span></h1>
                     <div className="about-app-inner">
                         <div className="about-l">
-                            <video src={video1} autoPlay loop muted></video>
+                        <video ref={videoRef} src={video1} autoPlay muted loop></video>
                         </div>
                         <div className="about-r">
                             <h3>

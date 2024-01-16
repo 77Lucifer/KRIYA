@@ -424,6 +424,9 @@ p{
     gap: 30px;
     padding: 30px;
 }
+.a-s-l .btn{
+    width: fit-content;
+}
 .a-s-l p{
     text-align: start;
     word-spacing: 5px;
