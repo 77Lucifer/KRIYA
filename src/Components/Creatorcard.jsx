@@ -31,7 +31,7 @@ function Creatorcard() {
                             <i class="fa-solid fa-video"><h4>Video Call</h4></i>
                             <i class="fa-solid fa-gift"><h4>Send Gift</h4></i>
                         </div>
-                        <div className="buttons">
+                        <div className="buttons  creator-b">
                                <a target='_blank' href="https://play.google.com/store/apps/details?id=com.kriya.app"> <div className="btn"><i className="fa-brands fa-google-play"></i>Play Store</div></a>
                                 <div className="btn"><i className="fa-brands fa-app-store"></i>App Store</div>
                             </div>
