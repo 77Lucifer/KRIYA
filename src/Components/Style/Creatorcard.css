@@ -146,19 +146,20 @@
 }
 .creator-b{
     width: 100%;
+    height: fit-content;
     justify-content: space-between;
     align-items: center;
     gap: 20px;
     flex-direction: column;
 }
 .creator-b .btn{
-    /* border-color: white; */
+    border-color: whitesmoke;
 }
 
 @media screen and (max-width: 1029px) {
     .card{
         width: 50%;
-    }
+    } 
 }
 
 @media screen and (max-width: 827px) {
