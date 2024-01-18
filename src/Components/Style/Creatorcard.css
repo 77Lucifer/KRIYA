@@ -91,8 +91,13 @@
     padding-left: 15px;
     display: flex;
     background-image: linear-gradient(to right, #ffb9ff 30%, #7870ca);
-    justify-content: start;
-    align-items: start;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 10px;
+}
+.k-logo .btn{
+    border-color: whitesmoke;
+    font-family: 'Raleway', sans-serif;;
 }
 .k-logo img{
     width: 90px;

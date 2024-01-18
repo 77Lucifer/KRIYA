@@ -7,8 +7,12 @@ import imgk from './images/Kriya_bg_remove.png'
 function Creatorcard() {
     return (
         <>
-            <a href="/"> <div className="k-logo">
+            <a href="/"> 
+            <div className="k-logo">
                 <img className='k-img' src={imgk} alt="" />
+                
+                    <div className="btn">Get Your Creator Card</div>
+                
             </div>
             </a>
             <div className="creator-main">
