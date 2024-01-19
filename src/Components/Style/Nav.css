@@ -5,7 +5,7 @@
     padding-inline: 56px;
     font-family: 'Karla', sans-serif;
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: space-between;
     /* background:linear-gradient(to right, #C8EBF1 45%,#EDE1E1); */
     background-image: linear-gradient(to right, #ffb9ff 30%, #7870ca);
@@ -24,10 +24,13 @@
     display: flex;
     flex-direction: row;
     justify-content: end;
-    align-items: center;
+    align-items: end;
     height: 100%;
-    width: 55%;
+    width: 60%;
     padding: 20px 0px;
+}
+.nav-ul .btn{
+    width: fit-content;
 }
 
 .nav-li {

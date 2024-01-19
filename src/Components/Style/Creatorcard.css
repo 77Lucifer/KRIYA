@@ -161,6 +161,10 @@
     border-color: whitesmoke;
 }
 
+.cr-c-btn{
+    width: 10%;
+}
+
 @media screen and (max-width: 1029px) {
     .card{
         width: 50%;

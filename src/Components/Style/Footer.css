@@ -101,6 +101,27 @@ ul li{
     gap: 80px;
 }
 
+    .d-img {
+        width: 110px;
+        height: 77px;
+        object-fit: contain;
+        margin-top: -25px;
+    }
+    
+    .app-store-img{
+        width: 110px;
+        height: 60px;
+        margin-top: -46px;
+    }
+
+.ul4{
+    margin-top: 0px;
+}
+
+.ul4 ul{
+    margin-top: 16px;
+}
+
 .ul5 ul{
     width: 100%;
 }
@@ -120,8 +141,7 @@ ul li{
     font-family: 'Montserrat', sans-serif;
 }
 .ul2,
-.ul3,
-.ul4 {
+.ul3{
     margin-top: 23px;
 }
 

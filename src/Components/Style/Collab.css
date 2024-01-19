@@ -1,7 +1,8 @@
 .Collab-main{
     width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(to right, #ffb9ff 30%, #7870ca);    font-family: 'Raleway', sans-serif;
+    height: 100%;
+    background-image: linear-gradient(to right, #ffb9ff 30%, #7870ca);  
+      font-family: 'Raleway', sans-serif;
     color: white;
     position: relative;
 }
@@ -11,8 +12,9 @@
 }
 .c-top{
     width: 100%;
-    height: 100%;
+    height: 100vh;
     padding: 20px;
+    border-bottom: 2px solid white;
 }
 .c-top h1{
     margin-top: 10px;
@@ -20,17 +22,18 @@
     text-align: center;
     color: var(--main-color);
     font-family: 'Arvo', serif;
-    
+    /* background: url(/src/Components/images/collab-img1.webp); */
 } 
 .c-inner{
     width: 100%;
     height: 100%;
     padding: 20px;
     display: flex;
+    align-items: center;
     justify-content: space-between
 }
 .c-left{
-    width: 40%;
+    width: 50%;
     height: 80%;
     display: flex;
     padding: 30px;
@@ -38,31 +41,131 @@
     justify-content: space-around;
     /* background-color: aliceblue; */
 }
+.c-left h1{
+    text-align: left;
+}
+.c-left h1 span{
+    color: #302E2E;
+}
 .c-left h3{
     line-height: 28px;
     font-size: 1.4rem;
-    text-align: left;
     color: var(--ptext-color);
+    width: 90%;
     font-family: 'Montserrat', sans-serif;
+}
+.collab-btn{
+    
 }
 .c-right{
     border-radius: 20px;
     width: 40%;
     height: 80%;
-    background-image: url(/src/Components/images/collab-ani-2.gif);
-    background-size: cover;
+    background-image: url(/src/Components/images/bg-remov2.png);
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
-.c-right video{
-    /* width: 100%;
-    height: 100%; 
-     object-fit: cover; */
-}
-#collab-wave{
+/* #collab-wave{
     position: absolute;
     bottom: -10%;
+} */
+
+.collab-form{
+    width: 100%;
+    height: 130vh;
+    padding: 20px;
 }
+
+.cf-inner{
+    width: 100%;
+    height: 105vh;
+    /* border: 2px solid seashell; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cf-l{
+    width: 50%;
+    height: 100%;
+    background: url(/src/Components/images/collab-5gif.png);
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.cf-r{
+    width: 50%;
+    height: 90%;
+    padding: 10px;
+    /* background-color: #b371c3; */
+    border: 2px solid white;
+    /* background-image: linear-gradient(to right, #7870ca 30%, #ffb9ff );   */
+    border-radius: 20px;
+}
+.cf-hrading{
+    padding-left: 20px;
+    color: #302E2E;
+    text-align: center;
+}
+.cf-hrading h1{
+    font-size: 2.5rem;
+}
+.cf-hrading h3{
+    font-size: 1.3rem;
+    margin-top: 10px;
+}
+.cf-hrading h3 span{
+    color: whitesmoke;
+}
+
+.cf-r form{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.cf-r form input{
+    width: 70%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.select{
+    width: 70%;
+    display: flex;
+    padding: 10px;
+    font-size: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.sel-one{
+    border-top: 2px solid whitesmoke;
+}
+.select select {
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: black;
+    background-color: white;
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+
+#collab-wave{
+    position: absolute;
+    bottom: 0;
+}
+
+
+
 
 @media screen and (max-width: 870px) {
     .c-inner{

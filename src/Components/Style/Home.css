@@ -15,6 +15,7 @@
     --pfont-family: 'Montserrat', sans-serif;
 }
 
+
 .loader {
     width: 100%;
     height: 100vh;
@@ -202,6 +203,10 @@ p{
     font-family: 'Montserrat', sans-serif;
     width: 80%;
     /* font-weight: 0; */
+}
+
+.first-btn{
+    width: fit-content;
 }
 
 .btn {
@@ -517,12 +522,6 @@ p{
     border-radius: 50%;
 }
 
-
-
-
-
-
-
 .app-downlaod {
     /* margin-top: 10px; */
     width: 100%;
@@ -550,7 +549,9 @@ p{
     padding: 20px;
     margin-top: 20px;
 }
-
+/* .app-downlaod a{
+    width: 100%;
+} */
 .app-downlaod h1 {
     text-align: center;
     /* color: ; */
@@ -631,9 +632,11 @@ p{
 .buttons i {
     margin-right: 14px;
 }
+#down-btn{
+    width: fit-content;
+}
 
-
-.footer {
+/* .footer {
     background-color: white;
     color: black;
     height: fit-content;
@@ -754,7 +757,7 @@ ul {
     text-align: center;
     color: gray;
     background-color: whitesmoke;
-}
+} */
 
 @media screen and (max-width: 1020px) {
     #mobile-img {
@@ -846,6 +849,9 @@ ul {
         height: fit-content;
     }
 
+    .top-a-btn{
+        margin: 0px auto;
+    }
    
     .t-r {
         width: 100%;
@@ -1257,4 +1263,10 @@ ul {
         height: 100vh;
     }
 
+}
+a{
+    width: fit-content;
+}
+a .btn{
+    width: 100%;
 }

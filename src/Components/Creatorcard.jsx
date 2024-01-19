@@ -11,7 +11,9 @@ function Creatorcard() {
             <div className="k-logo">
                 <img className='k-img' src={imgk} alt="" />
                 
-                    <div className="btn">Get Your Creator Card</div>
+                    <a href="#"> <div className="btn cr-c-btn">Get Your Creator Card</div>
+
+                    </a>
                 
             </div>
             </a>
@@ -40,7 +42,8 @@ function Creatorcard() {
                         </div>
                         <div className="buttons  creator-b">
                                <a target='_blank' href="https://play.google.com/store/apps/details?id=com.kriya.app"> <div className="btn"><i className="fa-brands fa-google-play"></i>Play Store</div></a>
-                                <div className="btn"><i className="fa-brands fa-app-store"></i>App Store</div>
+                              <a href="#">  <div className="btn cr-c-btn"><i className="fa-brands fa-app-store"></i>App Store</div>
+                              </a>
                             </div>
                     </div>
                 </div>

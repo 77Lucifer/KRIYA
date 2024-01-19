@@ -10,6 +10,7 @@ import Collab from './Components/Collab'
 import Creator from './Components/Creator'
 import Contact from './Components/Contact'
 import Creatorcard from './Components/Creatorcard'
+import Admin from './Components/Admin'
 
 function App() {
   
@@ -27,6 +28,7 @@ function App() {
       <Route path='/Creator' element={<Creator/>}></Route>
       <Route path='/Contact' element={<Contact/>}></Route>
       <Route path='/Creatorcard' element={<Creatorcard/>}></Route>
+      <Route path='/Admin' element={<Admin/>}></Route>
     </Routes>
   </BrowserRouter>
   </>

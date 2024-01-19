@@ -23,6 +23,7 @@ const Nav = () => {
                     <li className='nav-li'><Link to='/Collab'>Collaboration</Link></li>
                     <li className='nav-li'><Link to='/Creator'>Creators</Link></li>
                     <li className='nav-li'><Link to='/Contact'>Contact Us</Link></li>
+                    <li className='btn'>Join Waitlist</li>
                 </ul>
                 <li className={`humbar ${showNav ? 'fixed' : ''}`} onClick={toggleNav}>
                     {showNav ? <i className="fa-solid fa-times"></i> : <i className="fa-solid fa-bars"></i>}

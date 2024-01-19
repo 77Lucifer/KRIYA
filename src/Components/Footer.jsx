@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import appstore from './images/image.png'
 import './Style/Footer.css'
 
 const Footer = () => {
@@ -50,18 +51,23 @@ const Footer = () => {
                             <li>
                                 Phone: +91 9059225204 <br />
                             </li>
-                               <li> Email: kriya.reg@gmail.com
-                               </li>
+                            <li> Email: kriya.reg@gmail.com
+                            </li>
                         </ul>
                     </div>
                     <div className="ul4">
                         <h3>Downloads</h3>
                         <ul>
-                            <li>Get from the App Store</li>
-                            <li>Get from the Play Store</li>
+                            <li> <a href="https://play.google.com/store/apps/details?id=com.kriya.app" target='_blank'>
+                                <img className='d-img play-store' src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/2560px-Google_Play_Store_badge_EN.svg.png" alt="" />
+                            </a>
+                            </li>
+                            <li>
+                                <img className='d-img app-store-img' src={appstore} alt="" />
+                            </li>
                         </ul>
                     </div>
-                 
+
                 </div>
 
 
