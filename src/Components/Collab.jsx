@@ -28,7 +28,7 @@ const Collab = () => {
           <div className="cf-inner">
 
             <div className="cf-l">
-              <img src={qrimg} alt="" />
+              {/* <img src={qrimg} alt="" /> */}
             </div>
 
             <div className="cf-r">
