@@ -92,6 +92,15 @@
     background-size: 60%;
     background-position: center;
     background-repeat: no-repeat;
+    position: relative;
+}
+.cf-l img{
+    width: 115px;
+    object-fit: contain;
+    height: 213px;
+    position: absolute;
+    left: 40%;
+    top: 12%;
 }
 .cf-r{
     width: 50%;
@@ -99,6 +108,7 @@
     padding: 10px;
     /* background-color: #b371c3; */
     border: 2px solid white;
+    /* background-image: url(/src/Components/images/qr\ code.png); */
     /* background-image: linear-gradient(to right, #7870ca 30%, #ffb9ff );   */
     border-radius: 20px;
 }

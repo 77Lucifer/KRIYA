@@ -1,7 +1,7 @@
 import React from 'react'
 import './Style/Collab.css'
 import Nav from './Nav'
-import collabani from './images/collab-ani-2.gif'
+import qrimg from './images/qr\ code.png'
 import Footer from './Footer'
 
 const Collab = () => {
@@ -14,7 +14,7 @@ const Collab = () => {
           <div className="c-inner">
             <div className="c-left">
               <h1>You are in the right place to discover and work with <span>influencers.</span></h1>
-              <h3>By working with an influencers. you can gain to a large audience that you wouldn't be able to reach on your own.</h3>
+              <h3>By working with influencers. you can gain to a large audience that you wouldn't be able to reach on your own.</h3>
               <a href="">  <button className='btn collab-btn'>Let's Connect</button>
               </a>
             </div>
@@ -28,7 +28,7 @@ const Collab = () => {
           <div className="cf-inner">
 
             <div className="cf-l">
-
+              <img src={qrimg} alt="" />
             </div>
 
             <div className="cf-r">
@@ -41,17 +41,8 @@ const Collab = () => {
                 <input type="email" required placeholder='Email' />
                 <input type="text" required placeholder='Phone No.' />
                 <input type="text" required placeholder='Brand name' />
-                <div className="select sel-one">
 
-                  <label for="Budget">Select your Budget</label>
-                  <select name="Budget" id="Budget">
-                    <option value="b-5">Your Budget</option>
-                    <option value="b-15">20-35k</option>
-                    <option value="b-50">40-65k</option>
-                    <option value="b-100">1L+</option>
-                  </select>
-                </div>
-                <div className="select">
+                <div className="select sel-one">
 
                   <label for="influencers">Select Number of influencers</label>
                   <select name="influencers" id="influence">
@@ -61,6 +52,18 @@ const Collab = () => {
                     <option value="g-100">Greater than 100</option>
                   </select>
                 </div>
+
+                <div className="select ">
+
+                  <label for="Budget">Select your Budget</label>
+                  <select name="Budget" id="Budget">
+                    <option value="b-5">Your Budget</option>
+                    <option value="b-15">20-35k</option>
+                    <option value="b-50">40-65k</option>
+                    <option value="b-100">1L+</option>
+                  </select>
+                </div>
+
                 <button type="submit" className='btn'>Submit</button>
               </form>
             </div>
