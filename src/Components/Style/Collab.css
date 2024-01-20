@@ -268,7 +268,7 @@
 
     .c-left{
         margin: 20px;
-        height: 78%;
+        height: 120%;
     }
     .c-left h3{
         line-height: normal;
@@ -280,17 +280,22 @@
     .c-right{
         background-size: 75%;
     }
+    .cf-r{
+    width: 104%;
+    height: 160%;
+    }
     .cf-r form input{
         width: 85%;
     }
     .cf-hrading h1 {
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
     .cf-hrading h3 {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     .cf-r form {
         padding-left: 0px;
+        height: 85%;
     }
     .select label{
         font-size: 18px;

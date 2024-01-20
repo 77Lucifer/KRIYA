@@ -995,12 +995,14 @@ p{
     .a-s-l .f-aslp {
         text-align: left;
         width: 112%;
-        padding: 5px;
+        font-size: 1rem;
+        padding-left: 25px;
     }
     .a-s-l .aslp {
         width: 118%;
+        font-size: 1rem;
         text-align: left;
-        padding: 5px;
+        padding-left: 32px;
     }
 }
 
@@ -1092,7 +1094,9 @@ p{
         font-size: 1.6rem;
     }
 
-
+    .a-r .buttons{
+        height: 45%;
+    }
 
     .buttons {
         flex-direction: column;
