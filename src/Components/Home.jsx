@@ -120,7 +120,7 @@ const Home = () => {
                         <div className="about-second-inner first-inner">
                             <div className="a-s-l">
                                 <h2>Seamlessly Communicate</h2>
-                                <p>Seamlessly communicate with Kriya, where every moment sparks connection. With our
+                                <p className='f-aslp'>Seamlessly communicate with Kriya, where every moment sparks connection. With our
                                     user-friendly interface, enjoy chat, voice, and video calls effortlessly. Transform your
                                     conversations into meaningful experiences, minute by minute</p>
                                     <a target='_blank' href="https://play.google.com/store/apps/details?id=com.kriya.app"> <button className="btn a-s-l-button" >Download</button> </a>

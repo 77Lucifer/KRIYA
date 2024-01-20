@@ -26,7 +26,7 @@
     justify-content: end;
     align-items: end;
     height: 100%;
-    width: 60%;
+    width: fit-content;
     padding: 20px 0px;
 }
 .nav-ul .btn{

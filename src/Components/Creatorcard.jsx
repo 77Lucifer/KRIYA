@@ -11,7 +11,7 @@ function Creatorcard() {
             <div className="k-logo">
                 <img className='k-img' src={imgk} alt="" />
                 
-                    <a href="#"> <div className="btn cr-c-btn">Get Your Creator Card</div>
+                    <a href="#"> <div className="btn tr-c-btn">Get Your Creator Card</div>
 
                     </a>
                 
