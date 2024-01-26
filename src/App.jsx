@@ -12,6 +12,8 @@ import Contact from './Components/Contact'
 import Creatorcard from './Components/Creatorcard'
 import Admin from './Components/Admin'
 import Dashboard from './Components/dashboard'
+import Userform from './Components/Userform'
+
 
 function App() {
   
@@ -31,6 +33,7 @@ function App() {
       <Route path='/Creatorcard' element={<Creatorcard/>}></Route>
       <Route path='/Admin' element={<Admin/>}></Route>
       <Route path='/dashboard' element={<Dashboard/>}></Route>
+      <Route path='/UserForm' element={<Userform/>}></Route>
     </Routes>
   </BrowserRouter>
   </>
