@@ -26,7 +26,7 @@
     transition: all linear 1s;
     overflow: hidden;
     position: absolute;
-    animation: loadanimation 2s 3s 1 forwards;
+    animation: loadanimation 0.9s 1s 1 forwards;
     z-index: 999;
     position: fixed;
 }

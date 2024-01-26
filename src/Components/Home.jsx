@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import logo from "./images/Kriya_bg_remove.png"
 import Nav from './Nav'
 import img1 from "./images/person_1.jpg"
@@ -30,17 +30,35 @@ const Home = () => {
     }, []);
 
 
+    const [loading, setLoading] = useState(true);
+
+    useEffect(() => {
+      const fakeApiCall = () => {
+        // Simulate an API call or any asynchronous task
+        setTimeout(() => {
+          setLoading(false); // Set loading to false when the task is complete
+        }, 3000); // Simulating a 3-second loading time
+      };
+  
+      // Call the function that simulates your API call
+      fakeApiCall();
+    }, []); // Empty dependency array means this effect runs only once when the component mounts
+  
+
+
     return (
         <>
-            <div className="loader">
-                <div className="loadingio-spinner-dual-ball-4t24rchwmu">
-                    <div className="ldio-x5jinkz8sc">
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                    </div>
-                </div>
+             {loading && (
+        <div className="loader">
+          <div className="loadingio-spinner-dual-ball-4t24rchwmu">
+            <div className="ldio-x5jinkz8sc">
+              <div></div>
+              <div></div>
+              <div></div>
             </div>
+          </div>
+        </div>
+      )}  {!loading && (
             <div className="main">
                 <Nav />
                 <div className="top-section">
@@ -212,6 +230,7 @@ const Home = () => {
 
                 <Footer />
             </div>
+            )}
         </>
     )
 }
