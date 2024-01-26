@@ -44,7 +44,10 @@ const Userform = () => {
       chatPrice: '',
       callPrice: '',
       videoPrice: '',
-      socialMediaLinks: '',
+      Instagram: '',
+      Facebook: '',
+      Linkeden: '',
+      youtube: '',
     });
   };
 
@@ -111,9 +114,30 @@ const Userform = () => {
             </div>
 
             <div className="label-input-group">
-              <label htmlFor="socialLinks">Social Media Links</label>
+              <label htmlFor="Instagram">Instagram</label>
               <input type="text" id="socialLinks" />
             </div>
+
+
+            <div className="label-input-group">
+              <label htmlFor="Facebook">Facebook</label>
+              <input type="text" id="socialLinks" />
+            </div>
+
+            
+            <div className="label-input-group">
+              <label htmlFor="Linkeden">Linkden</label>
+              <input type="text" id="socialLinks" />
+            </div>
+
+
+            
+            <div className="label-input-group">
+              <label htmlFor="Youtube">Youtube</label>
+              <input type="text" id="socialLinks" />
+            </div>
+
+
 
             <button className='btn u-button' type="submit">Submit</button>
           </form>
