@@ -54,15 +54,23 @@ const Userform = () => {
     
       <div className="user-card">
         <div className="left-side">
-          {/* Profile image upload section */}
-          <label htmlFor="profileImage">
-            <img
-              src="https://via.placeholder.com/150"
-              alt="Profile"
-              className="profile-image"
+        <label htmlFor="profileImage">
+              <img
+                src={
+                  formData.profileImg
+                    ? URL.createObjectURL(formData.profileImg)
+                    : 'https://via.placeholder.com/150'
+                }
+                alt="Profile"
+                className="profile-image"
+              />
+            </label>
+            <input
+              type="file"
+              id="profileImage"
+              accept="image/*"
+              onChange={handleFileChange}
             />
-          </label>
-          <input type="file" id="profileImage" accept="image/*" />
         </div>
         <div className="right-side">
           {/* Form section */}
