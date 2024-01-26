@@ -5,7 +5,7 @@ import img1 from "./images/person_1.jpg"
 import img2 from "./images/footer-1image.png/"
 import video1 from "./images/kriyavideo.mp4"
 import { BrowserRouter, Routes, Router, } from 'react-router-dom'
-import Terms from "./Terms"
+import Terms from "./termsandconditions"
 import { Link } from 'react-router-dom'
 import './Style/Home.css'
 import Footer from './Footer'

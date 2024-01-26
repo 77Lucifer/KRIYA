@@ -3,6 +3,7 @@ import './Style/Terms.css'
 import logo from "./images/Kriya_bg_remove.png"
 import { Link } from 'react-router-dom'
 import Nav from './Nav'
+import Footer from './Footer'
 
 const Terms = () => {
     return (
@@ -94,6 +95,7 @@ const Terms = () => {
                     </div>
                 </div>
             </div>
+            <Footer/>
         </>
     )
 }

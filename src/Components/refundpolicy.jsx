@@ -3,6 +3,7 @@ import './Style/Terms.css'
 import logo from "./images/Kriya_bg_remove.png"
 import { Link } from 'react-router-dom'
 import Nav from './Nav'
+import Footer from './Footer'
 
 const Terms = () => {
     return (
@@ -72,6 +73,7 @@ Cancellation & Refund Policy:</p>
                     <p className='risk-p'>This cancellation and refund policy is designed to be fair and transparent, providing clarity on the circumstances under which refunds may be issued while ensuring the responsible use of the Kriya app.</p>
                 </div>
             </div>
+            <Footer/>
         </>
     )
 }

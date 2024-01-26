@@ -3,6 +3,7 @@ import './Style/Terms.css'
 import logo from "./images/Kriya_bg_remove.png"
 import { Link } from 'react-router-dom'
 import Nav from './Nav'
+import Footer from './Footer'
 
 
 const Terms = () => {
@@ -95,6 +96,7 @@ Kriya reserves the right to terminate or suspend access to the App at any time, 
           </div>
         </div>
       </div>
+      <Footer/>
     </>
   )
 }

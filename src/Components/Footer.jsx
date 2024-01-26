@@ -26,10 +26,10 @@ const Footer = () => {
                     <div className="ul2">
                         <h3>Navigation</h3>
                         <ul>
-                            <li>Pricing</li>
-                            <li>Features</li>
-                            <li>Blog</li>
-                            <li>Contact</li>
+                            <li> <Link to='/'> Home </Link></li>
+                            <li> <Link to='/Collab'> Collabration </Link> </li>
+                            <li> <Link to='/Creator'> Creators </Link> </li>
+                            <li> <Link to='/Contact'> Contact </Link> </li>
                         </ul>
                     </div>
                     <div className="ul3">
@@ -75,10 +75,10 @@ const Footer = () => {
             <div className="Copyright"><p>© Copyright KRIYA. All Rights Reserved
                 Powered By Connect And Collabs</p>
                 <div className="terms-c">
-                    <h4> <Link to='/Terms'>Terms and Conditions</Link></h4>
-                    <h4> <Link to='/Policy'>Privacy Policy</Link></h4>
-                    <h4> <Link to='/Complain'>Risk & Compliance</Link></h4>
-                    <h4> <Link to='/Refund'>Cancellation & Refund Policy</Link></h4>
+                    <h4> <Link to='/termsandconditions'>Terms and Conditions</Link></h4>
+                    <h4> <Link to='/privacypolicy'>Privacy Policy</Link></h4>
+                    <h4> <Link to='/riskandcompliance'>Risk & Compliance</Link></h4>
+                    <h4> <Link to='/refundpolicy'>Cancellation & Refund Policy</Link></h4>
                 </div>
             </div>
         </>

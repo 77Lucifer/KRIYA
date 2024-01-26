@@ -184,6 +184,16 @@ ul li{
     gap: 20px;
     /* height: 100%; */
 }
+
+@media screen and (max-width: 1300px) {
+    .terms-c h4{
+        font-size: 0.6rem;
+    }
+    .Copyright p{
+        font-size: 0.7rem;
+    }
+}
+
 @media screen and (max-width: 480px) {
     .footer{
         padding: 80px 20px 12px;
