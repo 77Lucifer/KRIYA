@@ -20,7 +20,7 @@ function Admin() {
                 <h3>Login</h3>
                 <div className="input-e">
                 <i class="fa-solid fa-user"></i>  
-                <input  type="text"  placeholder='Enter Your Email our Number' required/>
+                <input  type="text"  placeholder='Enter Your Email' required/>
                 </div>
                 <div className="input-e">
                 <i class="fa-solid fa-lock"></i>

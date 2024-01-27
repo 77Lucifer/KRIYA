@@ -1,5 +1,6 @@
 import React from 'react'
 import './Style/dashboard.css'
+import { Link } from 'react-router-dom';
 
 const dashboard = () => {
     return (
@@ -10,9 +11,9 @@ const dashboard = () => {
                         <h3>Creators dashboard</h3>
                     </div>
                     <div className="dash-right">
-                        <button className='btn'>create</button>
-                        <button className='btn'>Logout</button>
-                        <button className='btn'>view  site</button>
+                    <Link to='/UserForm'><button className='btn'>create</button></Link>
+                    <Link to='/'>    <button className='btn'>Logout</button> </Link>
+                    <Link to='/'>    <button className='btn'>view  site</button> </Link>
                     </div>
                 </div>
                 <div className="creator-information">

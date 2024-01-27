@@ -3,6 +3,7 @@
     height: 100vh;
     background: linear-gradient(to right, #ffb9ff 30%, #7870ca);
     position: relative;
+    overflow: hidden;
 }
 .login-inner h1{
     text-align: center;
@@ -69,7 +70,7 @@ form h3{
     font-size: 1rem;
     background-color: transparent;
     border: none;
-    color: #ff007b;
+    color: rgb(44, 43, 43);
     outline: none;
 }
 .admin-btn {
@@ -148,4 +149,25 @@ form h3{
 .l-img2{
     right: 10%;
     bottom: 5%;
+}
+
+
+@media screen and (max-width: 745px) {
+    .login-inner h1{
+        z-index: 1;
+    }
+    .login-box{
+        width: 80%;
+        height: 50%;
+    }
+}
+
+@media screen and (max-width: 399px) {
+    .login-box{
+        height: 41%;
+    }
+    .login-r{
+        width: 100%;
+        padding-left: 30px;
+    }
 }

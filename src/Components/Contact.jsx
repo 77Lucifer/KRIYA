@@ -17,6 +17,8 @@ const Contact = () => {
           <div className="form">
             <h4>Name</h4>
             <input type="text" placeholder='Enter Your Name' required />
+            <h4>Phone no.</h4>
+            <input type="text" placeholder='Enter valid Number' required />
             <h4>Email</h4>
             <input type="email" placeholder='Enter valid email' required />
             <h4>Message</h4>

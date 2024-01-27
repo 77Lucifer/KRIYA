@@ -51,7 +51,7 @@ const Terms = () => {
             <div className="terms-1">
               <ul>
               <h3>5. Privacy Policy</h3>
-              <li> <p>5.1 Use of the App is also governed by our Privacy Policy, which can be found [link to Privacy Policy]. By using the App, you agree to the terms outlined in the Privacy Policy.
+              <li> <p>5.1 Use of the App is also governed by our Privacy Policy, which can be found <Link to='/privacypolicy'> Privacy Policy</Link>. By using the App, you agree to the terms outlined in the Privacy Policy.
 <br />
 5.2 Termination
 
@@ -61,36 +61,36 @@ Kriya reserves the right to terminate or suspend access to the App at any time, 
 
             <div className="terms-1">
               <ul>
-              <h3>7. Disclaimers</h3>
-              <li> <p>7.1 The App is provided "as is" and kriya makes no warranties, either express or implied, regarding the App, including but not limited to its fitness for a particular purpose, accuracy, or non-infringement.</p></li>
+              <h3>6. Disclaimers</h3>
+              <li> <p>6.1 The App is provided "as is" and kriya makes no warranties, either express or implied, regarding the App, including but not limited to its fitness for a particular purpose, accuracy, or non-infringement.</p></li>
               </ul>
             </div>
 
             <div className="terms-1">
               <ul>
-              <h3>8. Limitation of Liability</h3>
-              <li> <p>8.1 To the fullest extent permitted by applicable law, Kriya shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits or revenues, whether incurred directly or indirectly.</p></li>
+              <h3>7. Limitation of Liability</h3>
+              <li> <p>7.1 To the fullest extent permitted by applicable law, Kriya shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits or revenues, whether incurred directly or indirectly.</p></li>
               </ul>
             </div>
 
             <div className="terms-1">
               <ul>
-              <h3>9. Governing Law</h3>
-              <li> <p>9.1 These Terms and Conditions shall be governed by and construed in accordance with the laws of Telangana Jurisdiction.</p></li>
+              <h3>8. Governing Law</h3>
+              <li> <p>8.1 These Terms and Conditions shall be governed by and construed in accordance with the laws of Telangana Jurisdiction.</p></li>
               </ul>
             </div>
 
             <div className="terms-1">
               <ul>
-              <h3>10. Changes to Terms</h3>
-              <li> <p>10.1 Kriya reserves the right to modify these Terms and Conditions at any time. Users are responsible for regularly reviewing the Terms. Continued use of the App after such modifications shall constitute acceptance of the modified Terms.</p></li>
+              <h3>9. Changes to Terms</h3>
+              <li> <p>9.1 Kriya reserves the right to modify these Terms and Conditions at any time. Users are responsible for regularly reviewing the Terms. Continued use of the App after such modifications shall constitute acceptance of the modified Terms.</p></li>
               </ul>
             </div>
 
             <div className="terms-1">
               <ul>
-              <h3>11. Contact Information</h3>
-              <li> <p>11.1 For questions or concerns regarding these Terms and Conditions, please contact us at kriya.reg@gmail.com.</p></li>
+              <h3>10. Contact Information</h3>
+              <li> <p>10.1 For questions or concerns regarding these Terms and Conditions, please contact us at kriya.reg@gmail.com.</p></li>
               </ul>
             </div>
           </div>

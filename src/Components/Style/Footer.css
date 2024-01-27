@@ -233,4 +233,7 @@ ul li{
     .terms-c h4{
         font-size: 1rem;
     }
+    .app-store-img{
+        margin-top: -25px;
+    }
 }
