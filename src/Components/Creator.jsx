@@ -1,15 +1,17 @@
-import React, { useState } from 'react'
-import './Style/Creator.css'
-import Nav from './Nav'
-import Footer from './Footer'
-import { Link } from 'react-router-dom'
-
+import React, { useState } from 'react';
+import './Style/Creator.css';
+import Nav from './Nav';
+import Footer from './Footer';
+import { Link } from 'react-router-dom';
 
 const Creator = () => {
-
   const [searchQuery, setSearchQuery] = useState('');
+  const [currentPage, setCurrentPage] = useState(1);
+  const creatorsPerPage = 3; // Number of creators to display per page
+
   const handleSearch = (event) => {
     setSearchQuery(event.target.value);
+    setCurrentPage(1); // Reset to the first page when searching
   };
 
   // Your creator data with unique IDs
@@ -35,21 +37,33 @@ const Creator = () => {
         'https://firebasestorage.googleapis.com/v0/b/creators-dev-prod.appspot.com/o/profile_images%2F72ed31c2-a7bb-4ab0-a77b-b972591769c9?alt=media&token=d5e86b68-3d10-4765-871e-0c11fe361116',
       profession: 'Photographer',
     },
+    // Add more creators as needed
   ];
 
+  // Filtered and paginated creators
   const filteredCreators = creators.filter((creator) =>
     creator.name.toLowerCase().includes(searchQuery.toLowerCase())
   );
 
+  const indexOfLastCreator = currentPage * creatorsPerPage;
+  const indexOfFirstCreator = indexOfLastCreator - creatorsPerPage;
+  const currentCreators = filteredCreators.slice(indexOfFirstCreator, indexOfLastCreator);
+
+  // Calculate the number of pages
+  const totalPages = Math.ceil(filteredCreators.length / creatorsPerPage);
+
+  const paginate = (pageNumber) => {
+    setCurrentPage(pageNumber);
+  };
 
   return (
     <>
       <Nav />
-      <div className="creator-main">
-        <h1>Our Creator</h1>
-       <div className="creator-inner">
+      <div className="creator-main creator-ma">
+        <h1>Our Creators</h1>
+        <div className="creator-inner">
           <div className="input">
-            <i class="fa-solid fa-user"></i>
+            <i className="fa-solid fa-user"></i>
             <input
               placeholder="Search"
               type="search"
@@ -57,22 +71,28 @@ const Creator = () => {
               onChange={handleSearch}
             />
           </div>
+          <br />
           <div className="creator-box">
-           {filteredCreators.map((creator) => (
-          <div
-                className="creator"
-                key={creator.id}
-              > <Link to='/Creatorcard'>    
-                <img src={creator.image} alt="" />
-                <h3>{creator.name}</h3>
-                <h5>{creator.profession}</h5>
-              </Link>
+            {currentCreators.map((creator) => (
+              <div className="creator" key={creator.id}>
+                <Link to="/Creatorcard">
+                  <img src={creator.image} alt="" />
+                  <h3>{creator.name}</h3>
+                  <h5>{creator.profession}</h5>
+                </Link>
               </div>
-            ))} 
+            ))}
+          </div>
+          <div className="pagination">
+            {Array.from({ length: totalPages }, (_, index) => (
+              <button key={index + 1} onClick={() => paginate(index + 1)}>
+                {index + 1}
+              </button>
+            ))}
           </div>
         </div>
         <svg
-          id="wave"
+          id="collab-wave"
           style={{ transform: 'rotate(0deg)', transition: '0.3s' }}
           viewBox="0 0 1440 220"
           version="1.1"
@@ -93,9 +113,7 @@ const Creator = () => {
       </div>
       <Footer />
     </>
-  )
-}
+  );
+};
 
-
-
-export default Creator
+export default Creator;

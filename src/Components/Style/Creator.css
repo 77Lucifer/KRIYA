@@ -91,6 +91,13 @@
     color: var(--ptext-color);
 }
 
+.pagination{
+    width: 23%;
+    display: flex;
+    gap: 13px;
+    justify-content: center;
+}
+
 @media screen and (max-width: 860px) {
     .input{
         width: 100%;
@@ -115,5 +122,11 @@
 @media screen and (max-width: 400px) {
     .creator{
         justify-content: space-evenly;
+    }
+    .creator-ma{
+        height: 133vh;
+    }
+    .creator-inner{
+        height: 109vh;
     }
 }

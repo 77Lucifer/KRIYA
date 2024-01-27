@@ -167,7 +167,14 @@
     text-align: center;
 }
 
-
+.collab-bimg{
+    width: 100%;
+    height: 80vh;
+    background-image: url(/src/Components/images/Untitled_design-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
 
 #collab-wave{
     position: absolute;
@@ -256,6 +263,9 @@
     }
     #collab-wave{
         bottom: -1%;
+    }
+    .collab-bimg{
+        height: 30vh;
     }
 }
 

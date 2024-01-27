@@ -24,6 +24,8 @@ const Collab = () => {
           </div>
         </div>
 
+        <div className="collab-bimg"></div>
+
         <div className="collab-form">
           <div className="cf-inner">
 
